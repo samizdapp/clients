@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "tcproxy",
+    "slug": "tcproxy",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.samizdapp.tcproxy"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.samizdapp.tcproxy",
+      "versionCode": 23
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "./zeroconf.android.js",
+      "react-native-wifi-reborn"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6fe6610c-7b52-4a23-b30e-0722112c3505"
+      }
+    }
+  }
+}
